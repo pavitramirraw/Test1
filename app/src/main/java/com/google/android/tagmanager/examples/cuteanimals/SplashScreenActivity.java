@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SplashScreenActivity extends Activity {
     private static final long TIMEOUT_FOR_CONTAINER_OPEN_MILLISECONDS = 2000;
-    private static final String CONTAINER_ID = "GTM-XXXX";
+    private static final String CONTAINER_ID = "GTM-TDRS3B";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
