@@ -6,6 +6,9 @@ import android.telephony.TelephonyManager;
 import com.google.android.gms.tagmanager.DataLayer;
 import com.google.android.gms.tagmanager.TagManager;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
 /**
  * Utility class.
  */
@@ -33,6 +36,18 @@ public class Utils {
     public static String getDeviceId(Context context) {
         TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
         return telephonyManager.getDeviceId();
+    }
+
+    public static JSONArray removeJsonObjectAtJsonArrayIndex(JSONArray source, int index) throws JSONException {
+        if (index < 0 || index > source.length() - 1) {
+            throw new IndexOutOfBoundsException();
+        }
+
+        final JSONArray copy = new JSONArray();
+        for (int i = 0, count = source.length(); i < count; i++) {
+            if (i != index) copy.put(source.get(i));
+        }
+        return copy;
     }
 
 }
