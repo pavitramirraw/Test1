@@ -2,11 +2,32 @@
 <items version="2" >
 
     <item
+        jar="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
+        <dex dex="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/pre-dexed/debug/classes-26d4a14e421b7ecc27b6c7a0571ac6da6bd7722f.jar" />
+    </item>
+    <item
         jar="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2c4e09d2d50b3fa4f14184a8da88760e0fc60a3e.jar" />
+    </item>
+    <item
+        jar="/home/pavitra/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dd46e63c5ae8483d00a0c92215c690d1cec0e8c0.jar" />
+    </item>
+    <item
+        jar="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/pre-dexed/debug/classes-16074ebdbab197b4cd2b3ca6989c979f76ed3233.jar" />
     </item>
     <item
         jar="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
@@ -23,18 +44,25 @@
         <dex dex="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/pre-dexed/debug/classes-5e903a7d21969fea15692283726d91866b3a9279.jar" />
     </item>
     <item
-        jar="/home/pavitra/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dd46e63c5ae8483d00a0c92215c690d1cec0e8c0.jar" />
-    </item>
-    <item
         jar="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
         <dex dex="/home/pavitra/Pavitra/cuteanimals/app/build/intermediates/pre-dexed/debug/classes-a42de2935e320d19e8317bb980fc9df56774f4df.jar" />
+    </item>
+    <item
+        jar="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ae5f0c6f704d3ee58f8ae508e0cddbcd30ad8ba4.jar" />
+    </item>
+    <item
+        jar="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="/home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/pre-dexed/debug/classes-0bdef7ed462f2f21405a778689f175166863bb11.jar" />
     </item>
 
 </items>

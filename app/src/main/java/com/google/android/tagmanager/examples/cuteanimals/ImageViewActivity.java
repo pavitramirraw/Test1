@@ -2,10 +2,12 @@ package com.google.android.tagmanager.examples.cuteanimals;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tagmanager.TagManager;
 
@@ -55,8 +57,16 @@ public class ImageViewActivity extends Activity {
         imageView.setImageDrawable(getResources().getDrawable(imageId));
         imageView.setContentDescription(imageName);
 
+        if(TagManager.getInstance(this).getDataLayer().get(IMAGE_NAME_KEY)!=null) {
+            Toast.makeText(this,"ImageName1: " + TagManager.getInstance(this).getDataLayer().get(IMAGE_NAME_KEY),Toast.LENGTH_SHORT).show();
+            Log.v("ImageName", "ImageName1: " + TagManager.getInstance(this).getDataLayer().get(IMAGE_NAME_KEY));
+        }
+
         // Put the image_name into the data layer for future use.
-        TagManager.getInstance(this).getDataLayer().push(IMAGE_NAME_KEY, imageName);
+        TagManager.getInstance(this).getDataLayer().push(IMAGE_NAME_KEY, Utils.getDeviceId(this));
+
+        Toast.makeText(this, "ImageName: " + TagManager.getInstance(this).getDataLayer().get(IMAGE_NAME_KEY), Toast.LENGTH_SHORT).show();
+        Log.v("ImageName", "ImageName: " + TagManager.getInstance(this).getDataLayer().get(IMAGE_NAME_KEY));
     }
 
     @Override

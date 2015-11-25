@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:2:1-64:12
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:2:1-92:12
 	package
 		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:3:5-65
 		INJECTED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml
@@ -36,95 +36,129 @@ ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/s
 MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:14:22-72
 application
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:15:5-63:19
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:16:5-91:19
 MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:22.2.0] /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:19:9-41
 	android:allowBackup
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:18:9-45
 	android:theme
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:20:9-40
 meta-data#com.google.android.gms.version
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:21:9-22:69
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:22:9-24:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:22:13-66
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:24:13-66
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:21:20-65
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:23:13-58
 service#com.google.android.gms.tagmanager.InstallReferrerService
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:25:9-92
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:27:9-92
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:25:18-89
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:27:18-89
 receiver#com.google.android.gms.tagmanager.InstallReferrerReceiver
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:26:9-30:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:28:9-34:20
 	android:exported
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:26:92-115
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:26:19-91
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:29:13-85
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:27:13-29:29
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:31:13-33:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:28:17-79
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:32:17-79
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:28:25-76
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:32:25-76
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:40:9-46:20
+	android:enabled
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:42:13-35
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:41:13-78
+intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:43:13-45:29
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:44:17-94
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:44:25-91
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:47:9-50:40
+	android:enabled
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:48:13-77
+receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:54:9-60:20
+	android:exported
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:55:13-85
+service#com.google.android.gms.analytics.CampaignTrackingService
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:61:9-92
+	android:name
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:61:18-89
 activity#com.google.android.tagmanager.examples.cuteanimals.SplashScreenActivity
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:65:9-73:20
 	android:label
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:67:13-45
 	android:noHistory
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:35:13-37
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:33:13-99
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:66:13-99
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:36:13-39:29
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:69:13-72:29
 action#android.intent.action.MAIN
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:37:17-69
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:37:25-66
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:71:17-77
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:71:27-74
 activity#com.google.android.tagmanager.examples.cuteanimals.MainActivity
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:41:9-43:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:74:9-109
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:42:13-91
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:74:19-97
 activity#com.google.android.tagmanager.examples.cuteanimals.CategoryViewActivity
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:44:9-46:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:75:9-117
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:45:13-99
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:75:19-105
 activity#com.google.android.tagmanager.examples.cuteanimals.ImageViewActivity
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:47:9-49:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:76:9-114
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:48:13-96
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:76:19-102
 activity#com.google.android.gms.tagmanager.PreviewActivity
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:52:9-62:20
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:79:9-90:20
 	android:label
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:54:13-45
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:81:13-45
 	android:noHistory
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:55:13-37
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:53:13-77
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:80:13-77
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:56:13-61:29
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:83:13-89:29
 data
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:57:15-104
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:84:17-106
 	android:scheme
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:57:21-101
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:84:23-103
 action#android.intent.action.VIEW
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:58:15-67
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:85:17-69
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:58:23-64
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:85:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:59:15-74
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:87:17-76
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:59:25-71
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:87:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:60:15-75
+ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:88:17-78
 	android:name
-		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:60:25-73
+		ADDED from /home/pavitra/Pavitra/GoogleTagManagerWorkingSample/cuteanimals/app/src/main/AndroidManifest.xml:88:27-75

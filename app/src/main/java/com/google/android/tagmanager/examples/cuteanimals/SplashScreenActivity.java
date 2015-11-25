@@ -39,7 +39,7 @@ public class SplashScreenActivity extends Activity {
 
         PendingResult<ContainerHolder> pending =
                 /*tagManager.loadContainerPreferNonDefault(CONTAINER_ID,R.raw.defaultcontainer_binary);*/
-                tagManager.loadContainerPreferNonDefault(CONTAINER_ID,R.raw.gtm_tdrs3b);
+                tagManager.loadContainerPreferFresh(CONTAINER_ID,R.raw.gtm_tdrs3b);
 
         // The onResult method will be called as soon as one of the following happens:
         //     1. a saved container is loaded
@@ -109,8 +109,10 @@ public class SplashScreenActivity extends Activity {
         @Override
         public Object getValue(String name, Map<String, Object> parameters) {
             if ("increment".equals(name)) {
+                Log.v(getClass().getSimpleName(), "increment: "+numCalls+1);
                 return ++numCalls;
             } else if ("mod".equals(name)) {
+                Log.v(getClass().getSimpleName(), "Mod: "+(Long) parameters.get("key1") % Integer.valueOf((String) parameters.get("key2")));
                 return (Long) parameters.get("key1") % Integer.valueOf((String) parameters.get("key2"));
             } else {
                 throw new IllegalArgumentException("Custom macro name: " + name + " is not supported.");

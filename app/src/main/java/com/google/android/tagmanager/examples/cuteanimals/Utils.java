@@ -1,6 +1,7 @@
 package com.google.android.tagmanager.examples.cuteanimals;
 
 import android.content.Context;
+import android.telephony.TelephonyManager;
 
 import com.google.android.gms.tagmanager.DataLayer;
 import com.google.android.gms.tagmanager.TagManager;
@@ -28,4 +29,10 @@ public class Utils {
         DataLayer dataLayer = TagManager.getInstance(context).getDataLayer();
         dataLayer.pushEvent("closeScreen", DataLayer.mapOf("screenName", screenName));
     }
+
+    public static String getDeviceId(Context context) {
+        TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+        return telephonyManager.getDeviceId();
+    }
+
 }

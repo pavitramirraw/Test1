@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.android.tagmanager.examples.cuteanimals"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -11,23 +11,56 @@
     <!-- For TagManager SDK -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
 
-        <meta-data android:name="com.google.android.gms.version"
+        <meta-data
+            android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <!-- Receives the install referral for Google Analytics and AdWords Tags -->
         <service android:name="com.google.android.gms.tagmanager.InstallReferrerService" />
-        <receiver android:name="com.google.android.gms.tagmanager.InstallReferrerReceiver" android:exported="true">
+        <receiver
+            android:name="com.google.android.gms.tagmanager.InstallReferrerReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
+
+        <!--Google Analytics Tags Below -->
+        <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background
+      dispatching on non-Google Play devices -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <!--Google Analytics Tags Above-->
+
 
         <activity
             android:name="com.google.android.tagmanager.examples.cuteanimals.SplashScreenActivity"
@@ -38,15 +71,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.google.android.tagmanager.examples.cuteanimals.MainActivity" >
-        </activity>
-        <activity
-            android:name="com.google.android.tagmanager.examples.cuteanimals.CategoryViewActivity" >
-        </activity>
-        <activity
-            android:name="com.google.android.tagmanager.examples.cuteanimals.ImageViewActivity" >
-        </activity>
+        <activity android:name="com.google.android.tagmanager.examples.cuteanimals.MainActivity"></activity>
+        <activity android:name="com.google.android.tagmanager.examples.cuteanimals.CategoryViewActivity"></activity>
+        <activity android:name="com.google.android.tagmanager.examples.cuteanimals.ImageViewActivity"></activity>
 
         <!--  Add preview activity. -->
         <activity
@@ -54,10 +81,11 @@
             android:label="@string/app_name"
             android:noHistory="true">  <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-              <data android:scheme="tagmanager.c.com.google.android.tagmanager.examples.cuteanimals" />
-              <action android:name="android.intent.action.VIEW" />
-              <category android:name="android.intent.category.DEFAULT" />
-              <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tagmanager.c.com.google.android.tagmanager.examples.cuteanimals" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
     </application>
